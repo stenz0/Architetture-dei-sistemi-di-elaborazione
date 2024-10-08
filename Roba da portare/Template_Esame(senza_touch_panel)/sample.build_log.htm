@@ -1,0 +1,132 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Lorenzo Stefanoni, Politecnico di Torino, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.36.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DARMP1.DLL V1.27.0.0
+Target DLL:      UL2CM3.DLL V1.164.0.0
+Dialog DLL:      TARMP1.DLL V1.26.0.0
+ 
+<h2>Project:</h2>
+C:\Users\lorys\OneDrive\Desktop\Roba da portare\Template_Esame\sample.uvprojx
+Project File Date:  02/02/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+assembling startup_LPC17xx.s...
+compiling AsciiLib.c...
+GLCD\AsciiLib.h(8): warning:  #1-D: last line of file ends without a newline
+  #endif 
+GLCD\AsciiLib.c: 1 warning, 0 errors
+compiling core_cm3.c...
+compiling lib_timer.c...
+timer\timer.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif 
+timer\lib_timer.c(155): warning:  #111-D: statement is unreachable
+  			break;
+timer\lib_timer.c(162): warning:  #111-D: statement is unreachable
+  			break;
+timer\lib_timer.c(170): warning:  #111-D: statement is unreachable
+  			break;
+timer\lib_timer.c(178): warning:  #111-D: statement is unreachable
+  			break;
+timer\lib_timer.c(182): warning:  #111-D: statement is unreachable
+  			break;
+timer\lib_timer.c: 6 warnings, 0 errors
+compiling system_LPC17xx.c...
+compiling IRQ_timer.c...
+timer\timer.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif 
+timer\IRQ_timer.c(36): warning:  #1-D: last line of file ends without a newline
+  }
+timer\IRQ_timer.c: 2 warnings, 0 errors
+compiling sample.c...
+GLCD/GLCD.h(64): warning:  #1-D: last line of file ends without a newline
+  #endif 
+timer/timer.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif 
+RIT/RIT.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif
+sample.c(54): warning:  #1-D: last line of file ends without a newline
+  }
+sample.c: 4 warnings, 0 errors
+compiling HzLib.c...
+GLCD\HzLib.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif 
+GLCD\HzLib.c: 1 warning, 0 errors
+compiling lib_joystick.c...
+compiling IRQ_RIT.c...
+RIT\RIT.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif
+RIT\../GLCD/GLCD.h(64): warning:  #1-D: last line of file ends without a newline
+  #endif 
+RIT\../timer/timer.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif 
+RIT\IRQ_RIT.c(169): warning:  #1-D: last line of file ends without a newline
+  }
+RIT\IRQ_RIT.c: 4 warnings, 0 errors
+compiling lib_button.c...
+compiling GLCD.c...
+GLCD\GLCD.h(64): warning:  #1-D: last line of file ends without a newline
+  #endif 
+GLCD\AsciiLib.h(8): warning:  #1-D: last line of file ends without a newline
+  #endif 
+GLCD\GLCD.c(500): warning:  #1-D: last line of file ends without a newline
+  }
+GLCD\GLCD.c: 3 warnings, 0 errors
+compiling funct_joystick.c...
+compiling IRQ_button.c...
+button_EXINT\../GLCD/GLCD.h(64): warning:  #1-D: last line of file ends without a newline
+  #endif 
+button_EXINT\../timer/timer.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif 
+button_EXINT\IRQ_button.c: 2 warnings, 0 errors
+compiling lib_RIT.c...
+RIT\RIT.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif
+RIT\lib_RIT.c: 1 warning, 0 errors
+compiling funct_led.c...
+compiling lib_led.c...
+linking...
+Program Size: Code=12272 RO-data=1772 RW-data=44 ZI-data=8292  
+".\sample.axf" - 0 Error(s), 24 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.LPC1700_DFP.2.7.1.pack
+                Keil.LPC1700_DFP.2.7.1
+                NXP LPC1700 Series Device Support, Drivers and Examples for MCB1700 and LPC1788-32
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  C:\Users\lorys\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  C:\Users\lorys\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>
